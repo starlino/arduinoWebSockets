@@ -130,7 +130,7 @@ protected:
         void handleClientData(void);
 #endif
 
-        void handleHeader(WSclient_t * client, String * headerLine);
+        virtual void handleHeader(WSclient_t * client, String * headerLine);
 
         /**
          * called if a non Websocket connection is coming in.
